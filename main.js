@@ -30,14 +30,14 @@ else {
   console.log('This Equation has has Two solution');
 
 }
-// this will output Postive value of X
-  var positiveX = ((-b) + Math.sqrt(d)) / (2 * a );
+// this will output  value of X1
+  var X1 = ((-b) + Math.sqrt(d)) / (2 * a );
 
-// this will output Negative value of X
-  var negativeX = ((-b) - Math.sqrt(d)) / (2 * a );
+// this will output value of X2
+  var X2 = ((-b) - Math.sqrt(d)) / (2 * a );
 
-  console.log('x = '+ positiveX) //display 0.5 
+  console.log('x2 = '+ X1) //display 0.5 
 
-  console.log('-x = '+ negativeX) //display -3
+  console.log('x1 = '+ X2) //display -3
 
 } 
